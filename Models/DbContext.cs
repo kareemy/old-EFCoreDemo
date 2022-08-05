@@ -12,6 +12,6 @@ namespace EFCoreDemo
         
         // This connects each entity class to the database
         // Each entity class needs its own DbSet property here
-        public DbSet<Patient> Patients {get; set;}
+        public DbSet<Patient> Patients {get; set;} = null!;
     }
 }

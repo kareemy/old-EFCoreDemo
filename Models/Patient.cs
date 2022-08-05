@@ -6,8 +6,8 @@ namespace EFCoreDemo
     public class Patient
     {
         public int PatientID {get; set;} // Primary Key
-        public string FirstName {get; set;}
-        public string LastName {get; set;}
+        public string FirstName {get; set;} = string.Empty;
+        public string LastName {get; set;} = string.Empty;
 
         // ToString() method tells C# how we want to format this entity class
         // when we display it to the console
